@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — 지켜라! 냥냥수비대 / NyanTower</title>
+<style>
+  :root {
+    --pink: #ff6fa8;
+    --gold: #ffc53d;
+    --ink: #1a1a2e;
+    --muted: #5a5a72;
+    --bg: #fff7fb;
+    --card: #ffffff;
+    --line: #f0d8e2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple SD Gothic Neo",
+                 "Malgun Gothic", "Noto Sans KR", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.7;
+  }
+  header {
+    background: linear-gradient(135deg, var(--pink), var(--gold));
+    color: #fff;
+    padding: 32px 24px;
+    text-align: center;
+  }
+  header h1 { margin: 0 0 6px; font-size: 22px; }
+  header p { margin: 0; opacity: 0.95; font-size: 14px; }
+  nav {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    padding: 16px;
+    background: var(--card);
+    border-bottom: 1px solid var(--line);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  nav button {
+    border: 2px solid var(--ink);
+    background: var(--card);
+    color: var(--ink);
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  nav button.active {
+    background: var(--ink);
+    color: #fff;
+  }
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  article { display: none; }
+  article.active { display: block; }
+  article h2 {
+    border-bottom: 2px solid var(--line);
+    padding-bottom: 8px;
+    margin-top: 32px;
+  }
+  article h1 { margin-top: 0; }
+  .meta { color: var(--muted); font-size: 13px; margin-bottom: 24px; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    padding: 24px;
+    font-size: 12px;
+  }
+  a { color: var(--pink); }
+  code {
+    background: #fff0f6;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>지켜라! 냥냥수비대 — Privacy Policy</h1>
+  <p>NyanTower: Cat Defense Squad</p>
+</header>
+
+<nav>
+  <button id="btn-ko" class="active" onclick="showLang('ko')">한국어</button>
+  <button id="btn-en" onclick="showLang('en')">English</button>
+</nav>
+
+<main>
+
+<article id="ko" class="active">
+<h1>개인정보처리방침</h1>
+<p class="meta">최종 수정일: 2026-05-02</p>
+
+<p>본 방침은 모바일 게임 <strong>지켜라! 냥냥수비대</strong>(이하 "본 앱")가 사용자의 개인정보를 어떻게 처리하는지 설명합니다.</p>
+
+<h2>1. 수집하는 정보</h2>
+<p>본 앱은 사용자가 별도로 입력하는 개인정보(이름, 이메일, 전화번호 등)를 수집하지 않습니다. 서비스 운영을 위해 다음 정보를 자동으로 처리합니다.</p>
+<ul>
+  <li><strong>Firebase 익명 사용자 식별자(UID)</strong>: 가입 절차 없이 발급되는 임의의 식별자. 사용자의 실명/연락처와 무관합니다.</li>
+  <li><strong>게임 진행 상태</strong>: 보유 재화, 강화/장비/유닛 보유 현황, 진행 웨이브, 텃밭/임무/패스 진행도 등 인게임 세이브 데이터.</li>
+</ul>
+<p>본 앱은 다음 정보를 수집하지 <strong>않습니다</strong>: 위치, 연락처, 사진/미디어, 통화기록, SMS, 광고 식별자(IDFA/AAID).</p>
+
+<h2>2. 이용 목적</h2>
+<ul>
+  <li>클라우드 세이브 및 기기 간 진행 상태 동기화</li>
+  <li>서비스 안정성 모니터링 및 장애 대응</li>
+  <li>어뷰징/부정 행위 방지</li>
+</ul>
+
+<h2>3. 보관 및 처리</h2>
+<ul>
+  <li>데이터는 Google Firebase(Firestore, Authentication)에 저장됩니다.</li>
+  <li>처리 위탁자: Google LLC. Firebase 데이터 처리 약관에 따릅니다.</li>
+  <li>전송 구간은 HTTPS로 암호화됩니다.</li>
+</ul>
+
+<h2>4. 보관 기간 및 삭제</h2>
+<ul>
+  <li>사용자가 앱을 삭제해도 클라우드 세이브 데이터는 보존됩니다(재설치 시 복구 목적).</li>
+  <li>삭제를 원하시면 아래 연락처로 익명 UID와 함께 삭제 요청을 보내주세요. 요청 후 30일 이내 삭제됩니다.</li>
+</ul>
+
+<h2>5. 제3자 제공</h2>
+<p>본 앱은 사용자의 데이터를 광고 네트워크 등 제3자에게 제공하거나 판매하지 않습니다. (현재 빌드 기준 광고 SDK 없음)</p>
+
+<h2>6. 아동 개인정보 보호</h2>
+<p>본 앱은 13세 미만 아동의 개인정보를 의도적으로 수집하지 않습니다.</p>
+
+<h2>7. 변경 고지</h2>
+<p>본 방침이 변경될 경우 앱 내 또는 본 페이지 상단의 "최종 수정일"을 통해 고지합니다.</p>
+
+<h2>8. 연락처</h2>
+<ul>
+  <li>이메일: <a href="mailto:leejh10167@npixel.co.kr">leejh10167@npixel.co.kr</a></li>
+  <li>개발자: NyanTower 개인 개발 (회사 무관)</li>
+</ul>
+</article>
+
+<article id="en">
+<h1>Privacy Policy</h1>
+<p class="meta">Last updated: 2026-05-02</p>
+
+<p>This policy explains how the mobile game <strong>NyanTower: Cat Defense Squad</strong> ("the App") handles user data.</p>
+
+<h2>1. Information We Collect</h2>
+<p>The App does not request or collect personally identifiable information you would manually enter (name, email, phone number, etc.). For service operation it automatically processes:</p>
+<ul>
+  <li><strong>Firebase anonymous user ID (UID)</strong>: a randomly generated identifier with no link to your real identity or contact details.</li>
+  <li><strong>Game progress data</strong>: in-game currencies, upgrade/equipment/unit ownership, current wave, farm/mission/pass progress, etc.</li>
+</ul>
+<p>The App does <strong>not</strong> collect: location, contacts, photos/media, call logs, SMS, advertising IDs (IDFA/AAID).</p>
+
+<h2>2. Purpose of Use</h2>
+<ul>
+  <li>Provide cloud save and cross-device sync</li>
+  <li>Monitor service stability and respond to incidents</li>
+  <li>Detect and prevent abuse</li>
+</ul>
+
+<h2>3. Storage and Processing</h2>
+<ul>
+  <li>Data is stored in Google Firebase (Firestore, Authentication).</li>
+  <li>Sub-processor: Google LLC, under Firebase Data Processing Terms.</li>
+  <li>All transport is encrypted via HTTPS.</li>
+</ul>
+
+<h2>4. Retention and Deletion</h2>
+<ul>
+  <li>Cloud save persists after uninstall (so reinstalls can restore progress).</li>
+  <li>To delete your data, email us with your anonymous UID. We will delete within 30 days.</li>
+</ul>
+
+<h2>5. Third-Party Sharing</h2>
+<p>The App does not sell or share user data with advertising networks or other third parties. (No advertising SDK is integrated in the current build.)</p>
+
+<h2>6. Children's Privacy</h2>
+<p>The App does not knowingly collect personal information from children under 13.</p>
+
+<h2>7. Changes</h2>
+<p>If this policy changes, the "Last updated" date above will be revised.</p>
+
+<h2>8. Contact</h2>
+<ul>
+  <li>Email: <a href="mailto:leejh10167@npixel.co.kr">leejh10167@npixel.co.kr</a></li>
+  <li>Developer: NyanTower (independent personal project)</li>
+</ul>
+</article>
+
+</main>
+
+<footer>
+  © 2026 NyanTower · Source: <a href="https://github.com/Catsorigame/nt-privacy-policy">github.com/Catsorigame/nt-privacy-policy</a>
+</footer>
+
+<script>
+  function showLang(lang) {
+    document.querySelectorAll('article').forEach(a => a.classList.remove('active'));
+    document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+    document.getElementById(lang).classList.add('active');
+    document.getElementById('btn-' + lang).classList.add('active');
+    document.documentElement.lang = lang;
+  }
+</script>
+</body>
+</html>
