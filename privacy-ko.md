@@ -44,5 +44,5 @@
 
 ## 8. 연락처
 
-- 이메일: leejh10167@npixel.co.kr
+- 이메일: spacerhstudio@gmail.com
 - 개발자: NyanTower 개인 개발 (회사 무관)

@@ -44,5 +44,5 @@ If this policy changes, the "Last updated" date above will be revised.
 
 ## 8. Contact
 
-- Email: leejh10167@npixel.co.kr
+- Email: spacerhstudio@gmail.com
 - Developer: NyanTower (independent personal project)
